@@ -1,0 +1,33 @@
+{
+  "name": "noithat-be",
+  "version": "1.0.0",
+  "description": "NoiThat-BE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiendam/NoiThat-BE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chiendam/NoiThat-BE/issues"
+  },
+  "homepage": "https://github.com/Chiendam/NoiThat-BE#readme",
+  "dependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.3",
+    "sequelize-cli": "^6.5.1"
+  }
+}
